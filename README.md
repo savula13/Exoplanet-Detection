@@ -10,12 +10,12 @@ Disclaimer: All collaboration and code execution was done in a Google Colab envi
 
 ## 🚀 Project Overview
 
-Exoplanet detection from stellar photometry is notoriously challenging due to:
-- high class imbalance (confirmed planets are rare)
+Exoplanet detection from light curves is challenging due to:
+- high class imbalance (confirmed planets are very rare!)
 - stellar variability and instrumental noise
-- subtle temporal patterns in transit events
+- subtle temporal patterns in transit crossing events (TCEs)
 
-Our approach uses **two synchronized representations** of each light curve:
+Our approach uses **two views** of each light curve:
 - **Global view**: full orbital phase (captures context and baseline shape)
 - **Local view**: zoomed window around centroid peak (captures transit structure)
 
@@ -30,7 +30,7 @@ Both flux and centroid signals are encoded as aligned channels.
 | **CNN Baseline** | Global flux only | Supervised | Local dip detection |
 | **Transformer Encoder** | Dual-view flux + centroid | Supervised | Global + local temporal reasoning |
 | **Pseudo-Labeled Transformer** | Same as above | Semi-supervised | Expand training with confident predictions |
-| **SSL Reconstruction Transformer** | Same as above | Self-supervised → fine-tuned | Learn transit structure without labels |
+| **SSL Reconstruction Transformer** | Same as above | Self-supervised → fine-tuned | Learn transit curve structure without labels |
 
 Full methodology details are provided in the project report (`report/`).
 
