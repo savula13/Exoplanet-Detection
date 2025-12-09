@@ -1,4 +1,4 @@
-# Exoplanet Transit Classification with Transformers (Supervised and Self Supervised) and CNNs
+# Exoplanet Transit Classification with CNNs and Multi View Transformers
 
 This repository contains the code and experiments for our graduate-level CSE project on classifying exoplanet transit candidates using phase–folded light curves from NASA’s TESS mission. We evaluate three architectures — a CNN baseline, a supervised transformer, and two self-supervised extensions — to leverage both labeled and unlabeled astronomical observations.
 
