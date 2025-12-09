@@ -45,7 +45,7 @@ Full methodology details are provided in the project report (`report/`).
 ├── models/
 │   ├── cnn.ipynb                 # CNN baseline implementation
 │   ├── transformer.ipynb         # Supervised transformer
-    ├── pseudo_labeling.ipynb.    # Psuedo-labeled transformer
+    ├── pseudo_labeling.ipynb     # Psuedo-labeled transformer
 │   ├── ssl_reconstruction.ipynb  # Masked reconstruction transformer (not included in results)
 │   └── reading_bulk_data.ipynb   # Utility functions for reading data
 │
