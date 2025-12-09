@@ -39,7 +39,7 @@ Full methodology details are provided in the project report (`report/`).
 ├── data/                         # Not included, stored in google drive
 │
 ├── models/
-│   ├── cnn.ipy  nb               # CNN baseline implementation
+│   ├── cnn.ipynb                 # CNN baseline implementation
 │   ├── transformer.ipynb         # Supervised & pseudo-labeled transformer
 │   ├── ssl_reconstruction.ipynb  # Masked reconstruction transformer
 │   └── reading_bulk_data.ipynb   # Utility functions
