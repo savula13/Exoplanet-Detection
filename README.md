@@ -4,6 +4,10 @@ This repository contains the code and experiments for our graduate-level CSE pro
 
 ---
 
+Disclaimer: All collaboration and code execution was done in a Google Colab environment, with the environment containing the necessary files and packages.
+
+---
+
 ## 🚀 Project Overview
 
 Exoplanet detection from stellar photometry is notoriously challenging due to:
